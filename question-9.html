@@ -8,7 +8,11 @@
 <body>
 <script>
 	var url = document.location.href;
-	document.write(url);
+	if(url.match(/campaign=/)){
+  var campaign = window.location.search.split('campaign=')[1].split('&')[0];
+  
+}
+	document.write(campaign);
 	
 </script>
 </body>
