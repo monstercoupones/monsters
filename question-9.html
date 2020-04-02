@@ -9,6 +9,12 @@
 <script>
 	var utm = window.location.search.replace( '?', ''); 
 	document.write(utm);
+	var link = "question-2.html"+"?"+utm;
+	function Click()
+	{
+		document.location.href(link);
+	}
+	<a href="#" onclick="Click();return false;">link text</a>
 	
 </script>
 </body>
