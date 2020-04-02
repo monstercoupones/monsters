@@ -6,8 +6,10 @@
 	
 </head>
 <body>
-<?php
-echo "http://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
-?>
+<script>
+	var url = document.location.href;
+	document.write(url);
+	
+</script>
 </body>
 </html>
