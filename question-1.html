@@ -10,6 +10,15 @@
 	<header>
 		
 	</header>
+	<script>
+	var utm = window.location.search.replace( '?', ''); 
+	var link = "question-2.html"+"?";
+	var final = link + utm;
+	function Click()
+	{
+		window.location.href=final;
+	}
+</script>
 	<div class="container">
 		<div class="content">
 			<div class="question">
@@ -17,27 +26,27 @@
 				bevorzugen Sie?
 			</div>
 			<div class="answers">
-				<a href="question-2.html">
+				<a href="#" onclick="Click();return false;">
 					<div class="answers__item">
 						- KOKOS UND HEIDELBEEREN
 					</div>
 				</a>
-				<a href="question-2.html">
+				<a href="#" onclick="Click();return false;">
 					<div class="answers__item">
 						- MOOSBEERE
 					</div>
 				</a>
-				<a href="question-2.html">
+				<a href="#" onclick="Click();return false;">
 					<div class="answers__item">
 						- LIMETTE
 					</div>
 				</a>
-				<a href="question-2.html">
+				<a href="#" onclick="Click();return false;">
 					<div class="answers__item">
 						- HEIDELBEEREN
 					</div>
 				</a>
-				<a href="question-2.html">
+				<a href="#" onclick="Click();return false;">
 					<div class="answers__item">
 						- TROPEN
 					</div>
