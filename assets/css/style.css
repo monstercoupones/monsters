@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	font-family: Parimatch;
+	color: #fff;
+	background-color: #000;
+	background: url(../img/bg.jpg) no-repeat left;
+	background-size: cover;
+}
+
+header {
+	min-height: 290px;
+	width: 100%;
+	height: 43%;
+	background: url(../img/header.jpg) no-repeat left top;
+	background-size: cover;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.container {
+	max-width: 480px;
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+.content {
+	text-align: center;
+}
+
+.content__title,
+.question {
+	margin-top: 60px;
+}
+
+.content__text {
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+.btn {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.answers__item {
+	margin: 0 auto;
+	background-color: #13ac17;
+	border-radius: 8px;
+	width: 255px;
+}
+
+.question {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.answers {
+	margin-top: 30px;
+}
+
+.answers__item {
+	padding-top: 13px;
+	padding-bottom: 15px;
+	line-height: 15px;
+}
+
+.answers__item:not(first-child) {
+	margin-top: 10px;
+}
+
+@font-face {
+ font-family: "Parimatch";
+ src: url("../fonts/Pari-Match Regular.woff2") format("woff2"),
+      url("../fonts/Pari-Match Regular.woff") format("woff"),
+      url("../fonts/Pari-Match Regular.ttf") format("truetype"),
+      url("../fonts/Pari-Match Regular.svg") format("svg"),
+      url("../fonts/Pari-Match Regular.otf") format("opentype");
+}
